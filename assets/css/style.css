@@ -3101,12 +3101,30 @@ blockquote .author_info span{
 	font-size: 20px;
 	font-weight: 700;
 	margin-bottom: 0px;
+	transition: 0.6s;
 }
 .team_single .team_text span {
 	font-size: 12px;
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #F4511E;
+	transition: 0.6s;
+}
+.team_single:hover h3{
+	color: #F4511E;
+}
+.team_single:hover span{
+	color: #272E70;
+}
+.team_single .team_thumb{
+	overflow: hidden;
+}
+.team_single img{
+	transform: scale(1);
+	transition: 0.5s;
+}
+.team_single:hover img{
+	transform: scale(1.1);
 }
 .team_social {
 	position: absolute;
